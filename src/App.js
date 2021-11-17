@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/Cart'
+import Cart from './components/Cart';
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Cart/>
         <a
           className="App-link"
           href="https://reactjs.org"
